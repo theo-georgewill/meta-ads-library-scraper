@@ -1,0 +1,38 @@
+{
+  "name": "meta-ads-library-scraper",
+  "version": "1.0.0",
+  "description": "A Node.js + TypeScript scraper for Meta Ads Library using Puppeteer with GraphQL interception, supporting initial and incremental sync.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "initialSync": "ts-node src/cli/initialSyncCli.ts",
+    "incrementalSync": "ts-node src/cli/incrementalSyncCli.ts"
+  },
+  "keywords": [
+    "puppeteer",
+    "scraper",
+    "meta-ads",
+    "facebook-ads",
+    "typescript",
+    "graphql",
+    "automation",
+    "crawler"
+  ],
+  "author": "Theo Georgewill",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "puppeteer": "^24.32.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/node": "^24.10.1",
+    "jest": "^30.2.0",
+    "ts-jest": "^29.4.6",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "data": {
+    "ad_library_main": {
+      "search_results_connection": {
+        "edges": [
+          {
+            "node": {
+              "collated_results": [
+                {
+                  "ad_archive_id": "111",
+                  "page_id": "282592881929497",
+                  "snapshot": {
+                    "page_id": "282592881929497"
+                  },
+                  "is_active": true,
+                  "end_date": null
+                }
+              ]
+            }
+          },
+          {
+            "node": {
+              "collated_results": [
+                {
+                  "ad_archive_id": "222",
+                  "page_id": "282592881929497",
+                  "snapshot": {
+                    "page_id": "282592881929497"
+                  },
+                  "is_active": false,
+                  "end_date": 1767139200
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}
