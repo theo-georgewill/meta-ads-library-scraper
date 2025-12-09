@@ -2,8 +2,6 @@
 
 A production-style Node.js + TypeScript scraper for the **Meta (Facebook) Ads Library** using **Puppeteer + Stealth** and **GraphQL interception**.
 
-> Built by **Theo Georgewill**
-
 This project automates the process of:
 
 * Fetching ads from the Meta Ads Library for a given `page_id`
